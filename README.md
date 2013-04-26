@@ -1,4 +1,4 @@
-#endpoint
+#feedfinder
 
 > Transform stream there extracts feed links from a HTML page
 
