@@ -1,0 +1,34 @@
+{
+  "name": "feedfinder",
+  "description": "Transform stream there extracts feed links from a HTML page",
+  "version": "0.2.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "main": "feedfinder.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/feedfinder.git"
+  },
+  "keywords": [
+    "feed",
+    "extract",
+    "RSS",
+    "ATOM",
+    "RDF"
+  ],
+  "dependencies": {
+    "htmlparser2": "3.0.x"
+  },
+  "devDependencies": {
+    "tap": "0.4.x",
+    "startpoint": "0.3.x",
+    "endpoint": "0.3.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.11 || 0.10",
+    "npm": "1"
+  }
+ }
