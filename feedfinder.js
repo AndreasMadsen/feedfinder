@@ -38,7 +38,6 @@ function FeedFinder(sourceUrl) {
       }
     },
     onerror: function (err) {
-      console.log('Hallo', err);
       self.emit('error', err);
     }
   });
