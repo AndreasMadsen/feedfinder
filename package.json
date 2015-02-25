@@ -1,7 +1,7 @@
 {
   "name": "feedfinder",
   "description": "Transform stream there extracts feed links from a HTML page",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "feedfinder.js",
   "scripts": {
@@ -19,16 +19,12 @@
     "RDF"
   ],
   "dependencies": {
-    "htmlparser2": "3.0.x"
+    "htmlparser2": "3.8.x"
   },
   "devDependencies": {
-    "tap": "0.4.x",
+    "tap": "0.6.x",
     "startpoint": "0.3.x",
-    "endpoint": "0.3.x"
+    "endpoint": "0.4.x"
   },
-  "license": "MIT",
-  "engines": {
-    "node": "0.11 || 0.10",
-    "npm": "1"
-  }
+  "license": "MIT"
  }
